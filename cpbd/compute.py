@@ -1,17 +1,12 @@
 # coding: utf-8
 
-from __future__ import (
-    absolute_import,
-    division,
-    print_function,
-    unicode_literals
-)
+# Python 3.12+ doesn't need __future__ imports
 
 from math import atan2, pi
 from sys import argv
 
 import numpy as np
-from scipy.ndimage import imread
+from imageio.v2 import imread
 from skimage.feature import canny
 
 from cpbd.octave import sobel

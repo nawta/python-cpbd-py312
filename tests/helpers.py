@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from __future__ import absolute_import, print_function, unicode_literals
+# Python 3.12+ doesn't need __future__ imports
 
 import numpy as np
 
